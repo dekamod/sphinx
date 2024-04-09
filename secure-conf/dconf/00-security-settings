@@ -1,0 +1,26 @@
+[org/gnome/login-screen]
+disable-user-list=true
+disable-restart-buttons=true
+banner-message-enable=true
+banner-message-text='By accessing this system, you consent to the following conditions:\n- This system is for authorized use only.\n- Any or all uses of this system and all files on this system may be monitored.\n- Communications using, or data stored on, this system are not private.'
+
+[org/gnome/settings-daemon/plugins/power]
+# Set the timeout to 900 seconds when on mains power
+sleep-inactive-ac-timeout=900
+# Set action after timeout to be logout when on mains power
+sleep-inactive-ac-type='logout'
+
+[org/gnome/settings-daemon/plugins/media-keys]
+logout=''
+
+[org/gnome/desktop/media-handling]
+automount=false
+automount-open=false
+autorun-never=true
+
+[org/gnome/desktop/screensaver]
+lock-enabled=true
+lock-delay=5
+
+[org/gnome/desktop/session]
+idle-delay=900

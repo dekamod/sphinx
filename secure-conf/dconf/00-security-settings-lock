@@ -1,0 +1,19 @@
+# Lock automatic logout settings
+/org/gnome/settings-daemon/plugins/power/sleep-inactive-ac-timeout
+/org/gnome/settings-daemon/plugins/power/sleep-inactive-ac-type
+
+/org/gnome/settings-daemon/plugins/media-keys/logout
+
+/org/gnome/login-screen/disable-user-list
+/org/gnome/login-screen/disable-restart-buttons
+/org/gnome/login-screen/banner-message-enable
+/org/gnome/login-screen/banner-message-text
+
+/org/gnome/desktop/screensaver/lock-enabled
+/org/gnome/desktop/screensaver/lock-delay
+
+/org/gnome/desktop/media-handling/automount
+/org/gnome/desktop/media-handling/automount-open
+/org/gnome/desktop/media-handling/autorun-never
+
+/org/gnome/desktop/session/idle-delay
